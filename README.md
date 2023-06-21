@@ -10,5 +10,7 @@ The second method that we are using is Lunh-Algo based summarizer, refer the not
 
     Cosine-Similarity
 
+In This approach we calcuate the similarity matrix, by using the cosine_distance formulae and later on uses the pagerank algorithm to calculate the scores for the sentneces, It is one of the best approaches as we amke use of Bag of words algorithm as well, but this is alos a bit time consuming. Cosine distance formulae is based of the cosine angle calculation through dot products if two vectors and we are making a sentnec as vector by using the bag of word approach, and finally using page rank algorithm we are able to get the scores of each sentnce.
+
     
 
