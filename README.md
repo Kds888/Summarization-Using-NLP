@@ -12,5 +12,8 @@ The second method that we are using is Lunh-Algo based summarizer, refer the not
 
 In This approach we calcuate the similarity matrix, by using the cosine_distance formulae and later on uses the pagerank algorithm to calculate the scores for the sentneces, It is one of the best approaches as we amke use of Bag of words algorithm as well, but this is alos a bit time consuming. Cosine distance formulae is based of the cosine angle calculation through dot products if two vectors and we are making a sentnec as vector by using the bag of word approach, and finally using page rank algorithm we are able to get the scores of each sentnce.
 
+    Libraries for text summarizing.
+
+In this I have made use of many libraries like sumy: - which calculates the summary based of statistical methods, pysummarization: - which makes use of LSTM Rnn's to return us the summary of the given articles and the last is through BERT_summarizer which makes use of BERT langiage models to deliver us the summary, which uses similar architectire like cosine-similarity.
     
 
